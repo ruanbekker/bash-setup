@@ -10,3 +10,6 @@ curl --silent https://raw.githubusercontent.com/ruanbekker/bash-setup/main/.vimr
 
 # Get vim colors
 curl --silent https://raw.githubusercontent.com/ruanbekker/bash-setup/main/.vim/colors/molokai.vim --create-dirs --output ~/.vim/colors/molokai.vim
+
+# Set custom aliases
+curl --silent https://raw.githubusercontent.com/ruanbekker/bash-setup/main/.custom/aliases.sh --create-dirs --output ~/.custom/aliases.sh
