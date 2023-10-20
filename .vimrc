@@ -27,6 +27,13 @@ autocmd FileType html,xhtml,css,xml,xslt,python set shiftwidth=4 softtabstop=4
 " in makefiles, don't expand tabs to spaces
 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
 
+" vim-plug
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'itchyny/lightline.vim'
+call plug#end()
+
 " old configs
 "set expandtab           " enter spaces when tab is pressed
 "set tabstop=4           " use 4 spaces to represent tab
