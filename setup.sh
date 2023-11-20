@@ -16,3 +16,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 # Set custom aliases
 curl --silent https://raw.githubusercontent.com/ruanbekker/bash-setup/main/.custom/aliases.sh --create-dirs --output ~/.custom/aliases.sh
+
+# OhMyBash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
